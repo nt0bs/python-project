@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import "./Component/AddJob.css"
+import "./Component/Add Job/AddJob.css"
 function AddJob({addJob}){
     const [title, setTitle] = useState('');
     const [companyName, setCompanyName] = useState('');
